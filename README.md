@@ -58,21 +58,23 @@ Example:
 
 -- V1__initial.script.value.sql
 
-CREATE TABLE books (
+    CREATE TABLE books (
 
     b VARCHAR(20) PRIMARY KEY,
     title VARCHAR(255)
-);
+    );
+
 
 -- V2__Add.books.sql
 
-insert into books (b, title)
+    insert into books (b, title)
 
-values ('978-0-262-04630-5', 'Physics 1st Paper')
+    values ('978-0-262-04630-5', 'Physics 1st Paper')
+
 
 -- V3__add.new.column.sql
 
-alter table if exists books
+    alter table if exists books
 
     add column price float(53) default 0
 
@@ -100,14 +102,24 @@ Contributions are welcome. Please open an issue or submit a pull request.
 
 - flyway_schema_history
 
+  ![image_alt](https://github.com/mahmudrashik/flyway/blob/102c7b2eacdb9d4f926cfbd59c635f3065fe8c44/Screenshot%202025-07-30%20223719.png)
+
 ### After V2 operation done
 
 - flyway_schema_history
 
+ ![image_alt](https://github.com/mahmudrashik/flyway/blob/102c7b2eacdb9d4f926cfbd59c635f3065fe8c44/Screenshot%202025-07-30%20223719.png)
+
 - books
+
+ ![image_alt](https://github.com/mahmudrashik/flyway/blob/102c7b2eacdb9d4f926cfbd59c635f3065fe8c44/Screenshot%202025-07-30%20223719.png)
 
 ### After V3 operation done
 
 - flyway_schema_history
 
+ ![image_alt](https://github.com/mahmudrashik/flyway/blob/102c7b2eacdb9d4f926cfbd59c635f3065fe8c44/Screenshot%202025-07-30%20223719.png)
+
 - books
+
+ ![image_alt](https://github.com/mahmudrashik/flyway/blob/102c7b2eacdb9d4f926cfbd59c635f3065fe8c44/Screenshot%202025-07-30%20223719.png)
