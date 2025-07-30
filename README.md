@@ -108,11 +108,11 @@ Contributions are welcome. Please open an issue or submit a pull request.
 
 - flyway_schema_history
 
- ![image_alt](https://github.com/mahmudrashik/flyway/blob/102c7b2eacdb9d4f926cfbd59c635f3065fe8c44/Screenshot%202025-07-30%20223719.png)
+ ![image_alt](https://github.com/mahmudrashik/flyway/blob/e2d6b80b267c11df28703a3c07e41490b9ecfc74/Screenshot%202025-07-30%20223931.png)
 
 - books
 
- ![image_alt](https://github.com/mahmudrashik/flyway/blob/102c7b2eacdb9d4f926cfbd59c635f3065fe8c44/Screenshot%202025-07-30%20223719.png)
+ ![image_alt](https://github.com/mahmudrashik/flyway/blob/e2d6b80b267c11df28703a3c07e41490b9ecfc74/Screenshot%202025-07-30%20224043.png)
 
 ### After V3 operation done
 
